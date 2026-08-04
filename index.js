@@ -5,6 +5,8 @@ console.log("javascript");
 let name = "tuananh";
 let age = 20;
 
+const birtDay = 2006
+
 console.log(name);
 
 
