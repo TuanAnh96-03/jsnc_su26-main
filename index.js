@@ -26,7 +26,7 @@ console.log("javascript");
 // alert("Xin chào JavaScript");
 
 const h1 = document.getElementById("title");
-h1.innerHTML="Danh sách sản phẩm";
 console.log(h1);
-
+const title = "Laptop-Máy tính"
+h1.innerHTML = `Danh sách ${title}`
 
