@@ -1,4 +1,4 @@
-// console.log("javascript");
+console.log("javascript");
 // $ PHP
 // let
 
@@ -31,25 +31,45 @@
 // h1.innerHTML = `Danh sách ${title}`
 
 
-let name = "Trần Tuấn Anh";
-let age = 20;
-let email = "tuananh03122006@gmail.com";
-let address = "Hà Nội"
+// let name = "Trần Tuấn Anh";
+// let age = 20;
+// let email = "tuananh03122006@gmail.com";
+// let address = "Hà Nội"
 
-console.log(`
-    Tên: ${name}
-    Tuổi:${age}
-    Email:${email}
-    Địa chỉ:${address}
-    `);
+// console.log(`
+//     Tên: ${name}
+//     Tuổi:${age}
+//     Email:${email}
+//     Địa chỉ:${address}
+//     `);
 
+
+// const student = {
+//   name: "Trần Tuấn Anh",
+//   age: 20,
+// };  
+
+// document.getElementById("title").innerHTML = `
+// <h2>${student.name}</h2>
+// <p>Tuổi: ${student.age}</p>
+// `;
+
+//OBJECT
 
 const student = {
-  name: "Trần Tuấn Anh",
-  age: 20,
-};  
+    name:"tuananh",
+    age:30,
+    student:true  
+};
+console.log(student.name);
+document.getElementById("title").innerHTML=`
+<h1>${student.name}</h1>`;
 
-document.getElementById("title").innerHTML = `
-<h2>${student.name}</h2>
-<p>Tuổi: ${student.age}</p>
-`;
+
+const book ={
+    title: "Hoa vàng trên cỏ xanh",
+    author:"Nguyễn Nhật Ánh",
+    year:1999
+}
+document.getElementById("namebook").innerHTML=`
+<h1>${book.title}</h1>`
