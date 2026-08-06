@@ -31,3 +31,23 @@ tbody.innerHTML = `<tr class="hover:bg-gray-50">
                 </div>
               </td>
             </tr>`
+
+// array
+
+const numbers =[1,2,3,4]
+const names = ["tuananh","agdsjgsa",1,true]
+
+const students =[
+    {
+        id:1,
+        name:"tuananh"
+    },
+    {
+        id:2,
+        name:"dska"
+    }
+];
+console.log(students[0].name);
+students.map((item) => {
+  console.log(item);
+});
