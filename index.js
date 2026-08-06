@@ -4,12 +4,16 @@ console.log(tbody);
 
 const student = {
     id :10,
-    name:"tuananh"
+    name:"tuananh",
+    mssv:"ph61021",
+    school:"FPT"
 
 }
 tbody.innerHTML = `<tr class="hover:bg-gray-50">
               <td class="px-4 py-2 border border-gray-300">${student.id}</td>
               <td id="namebook" class="px-4 py-2 border border-gray-300">${student.name}</td>
+              <td class="px-4 py-2 border border-gray-300">${student.mssv}</td>
+              <td class="px-4 py-2 border border-gray-300">${student.school}</td>
               <td class="px-4 py-2 border border-gray-300">
                 <div class="flex items-center justify-center gap-2">
                   <a
