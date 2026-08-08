@@ -84,7 +84,7 @@
 
     if (result) {
       axios.delete(`http://localhost:3000/students/${id}`).then(() => {
-        loadStudents();
+        loadStudent();
       });
     }
   }
