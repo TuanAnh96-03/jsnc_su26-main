@@ -1,18 +1,21 @@
 console.log("add them");
 
-function addStudent() {
-    axios.post("http://localhost:3000/students", {
-        name: "tuananh",
-        age: 20,
-        email: "tuananh03122006@gmail.com"
+document.getElementById("form-add").addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const age = document.getElementById("age").value;
+  const email = document.getElementById("email").value;
+
+  axios
+    .post("http://localhost:3000/students", {
+      name,
+      age,
+      email,
     })
     .then(() => {
-        alert("Thêm thành công");
-    })
-    .catch((error) => {
-        console.log(error);
-        alert("Thêm thất bại");
-    });
-}
+      alert("Thêm sinh viên thành công");
 
-addStudent();
+      window.location.href = "index.html";
+    });
+});
