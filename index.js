@@ -78,6 +78,7 @@
   });
   }
 
+  loadStudent();
 
   function deleteStudent(id) {
     const result = confirm("Bạn có chắc chắn muốn xóa không?");
@@ -87,5 +88,8 @@
         loadStudent();
       });
     }
-  }
-loadStudent();
+  };
+
+  function goToEdit(id) {
+  window.location.href = `edit.html?id=${id}`;
+}

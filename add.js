@@ -15,7 +15,6 @@ document.getElementById("form-add").addEventListener("submit", (e) => {
     })
     .then(() => {
       alert("Thêm sinh viên thành công");
-
       window.location.href = "index.html";
     });
 });
