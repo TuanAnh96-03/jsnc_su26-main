@@ -67,9 +67,11 @@
                   ${item.age}
                 </td>
                 <td class="px-4 py-2 border border-gray-300">
+                <button onclick="goToEdit(${item.id})" class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Sửa</button>
                 <button onclick="deleteStudent(${item.id})">
                   Xóa
                 </button>
+                
               </td>
               </tr>
       `;
