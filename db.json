@@ -2,22 +2,57 @@
   "students": [
     {
       "name": "Lê Văn D",
-      "age": "22",
+      "age": 22,
       "email": "c@gmail.com",
       "id": 3
     },
     {
       "name": "Nguyễn Văn A",
-      "age": "67",
+      "age": 67,
       "email": "tuananh03122006@gmail.com",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "email": "abc@gmail.com",
+      "password": "$2a$10$pwrWmKt2meb2FwX92FEv2uxZoeiqWNp8iAao26kKBdVALIdl5Nl4K",
+      "id": 1
+    },
+    {
+      "email": "g@gmail.com",
+      "password": "$2a$10$H3tVrTI00BFD3gc0Ywh2ae0.MHVl/ri/NMVVPdtrSjtmni9wYrdNe",
+      "id": 2
+    },
+    {
+      "email": "c@gmail.com",
+      "password": "$2a$10$G2oUeTu6GOi44CGxmeK8sOFSuxAx2wHn1JGEKk3UNTFavcliL8frG",
+      "id": 3
+    },
+    {
+      "email": "b@gmail.com",
+      "password": "$2a$10$gOGjBR78/o0rCru1V3A2deFMNhQFUkpzL7xahMPX0M.rocpO4Ncca",
       "id": 4
     },
     {
-      "name": "Nguyễn Văn B",
-      "age": "30",
-      "email": "abc@gmail.com",
+      "email": "d@gmail.com",
+      "password": "$2a$10$elCY3gMY.6EsGOgZfmFCauMtWXLHXCgokXIqdkS/9PK9kLFYqd70i",
       "id": 5
+    },
+    {
+      "email": "f@gmail.com",
+      "password": "$2a$10$xCagHaxMt.VWgZCdLnBI1OyGVA2M3bpXYaZPtS1BQVcOyW2keFSFm",
+      "id": 6
+    },
+    {
+      "email": "t@gmail.com",
+      "password": "$2a$10$c2mMxSHVb4tdN9D/rbSvpuq9i98N6HyynWa67k7OvsJa0f7lPcOWC",
+      "id": 7
+    },
+    {
+      "email": "z@gmail.com",
+      "password": "$2a$10$rx1l29pmD.7DUBSnVlAqoeu9eLtdCk1GNHQCKQs8yQ8iCKJH19PEe",
+      "id": 8
     }
-  ],
-  "user":[]
+  ]
 }

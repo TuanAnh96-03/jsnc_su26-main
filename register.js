@@ -10,9 +10,10 @@ document.getElementById("form-register").addEventListener("submit", (e) => {
       password,
     })
     .then(() => {
+      location.replace("/login.html")
       alert("Đăng ký thành công");
 
-      window.location.href = "login.html";
+      
     })
     .catch(() => {
       alert("Đăng ký thất bại");

@@ -95,3 +95,9 @@
   function goToEdit(id) {
   window.location.href = `edit.html?id=${id}`;
 }
+
+
+function logout() {
+      localStorage.removeItem("token");
+     location.replace("/login.html")
+    }
